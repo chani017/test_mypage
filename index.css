@@ -135,6 +135,15 @@ body{
     border-radius: 15px;
 }
 
+.box > div > a:hover{
+    cursor: pointer;
+}
+
+.box > div > a:active{
+    position: relative; 
+    top:2px;
+}
+
 .title_TS{
     font-family: 'twaysky';
 }
