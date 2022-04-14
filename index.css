@@ -114,7 +114,7 @@ body{
     box-shadow: 8px 8px #ff6a2b;
 }
 
-.box > div > h3{
+.box > div > .tm{
     height: 100px;
     width: 230px;
     font-size: 20px;
@@ -124,13 +124,13 @@ body{
 }
 
 .box > div > p{
+    margin-top: 22px;
     font-size: 15px;
-    text-align: left;
-    margin-top: 25px;
-    margin-bottom: -25px;
 }
 
 .box > div > a{
+    position: relative;
+    bottom: 40px;
     font-family: 'Pretendard';
     font-weight: 900;
     font-size: 10px;
