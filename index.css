@@ -114,13 +114,20 @@ body{
     box-shadow: 8px 8px #ff6a2b;
 }
 
-.box > div > p{
+.box > div > h3{
     height: 100px;
     width: 230px;
     font-size: 20px;
     line-height: 22px;
     background-color: #f9f9f9;
     padding: 10px;
+}
+
+.box > div > p{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: -25px;
 }
 
 .box > div > a{
@@ -133,6 +140,7 @@ body{
     border: 2px solid black;
     padding: 5px;
     border-radius: 15px;
+    float: right;
 }
 
 .box > div > a:hover{
