@@ -18,6 +18,30 @@
     font-family: 'GmarketSansBold';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
 }
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IM_Hyemin-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CWDangamAsac-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SF_HambakSnow';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/SF_HambakSnow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body{
     font-family: 'Pretendard';
@@ -123,4 +147,26 @@ body{
 
 .title_GS{
     font-family: 'GmarketSansBold';
+}
+
+.title_YJ{
+    font-family: 'yg-jalnan';
+}
+
+.title_IH{
+    font-family: 'IM_Hyemin-Bold';
+}
+
+.title_CD{
+    font-family: 'CWDangamAsac-Bold';
+}
+
+.title_HN{
+    font-family: 'SF_HambakSnow';
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
 }
