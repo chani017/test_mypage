@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'twaysky';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
+}
+@font-face {
+    font-family: '62570체';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/62570체.woff') format('woff');
+}
+@font-face {
+    font-family: 'KoPubDotumMedium';
+     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/KoPubDotumMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+}
+
+body{
+    font-family: 'Pretendard';
+    background: #f7f7f7;
+    margin: 1em;
+    line-height: 16px;
+}
+
+.header{
+    padding: 30px;
+}
+
+.main-title{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sub-title{
+    height: 20px;
+    width: 450px;
+    text-align: center;
+    font-size: 13px;
+    background-color: #dadada;
+    padding: 5px;
+    margin:0 auto;
+    border-radius: 20px 20px 20px 20px;
+    line-height: 20px;
+}
+
+.type{
+    width: 65em;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    margin: 0px auto;
+    padding: 10px;
+    line-height: 16px;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(4, 1fr);
+}
+
+.box > div{
+    height: 200px;
+    width: 250px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 15px;
+    line-height: 16px;
+    box-shadow: 8px 8px rgb(255, 106, 43);
+}
+
+.box > div > p{
+    height: 100px;
+    width: 230px;
+    font-size: 20px;
+    line-height: 22px;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.box > div > a{
+    font-family: 'Pretendard';
+    font-weight: 800;
+    font-size: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: rgb(255, 106, 43);
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.title_TS{
+    font-family: 'twaysky';
+}
+
+.title_625{
+    font-family: '62570체';
+}
+
+
+.title_KD{
+    font-family: 'KoPubDotumMedium';
+}
+
+.title_NS{
+    font-family: 'Noto Sans KR';
+}
+
+.title_PD{
+    font-family: 'Pretendard';
+    font-weight: 800;
+}
+
+.title_GS{
+    font-family: 'GmarketSansBold';
+}
