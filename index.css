@@ -48,6 +48,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'LeferiPoint-WhiteObliqueA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body{
     font-family: 'Pretendard';
@@ -58,7 +64,7 @@ body{
 
 .header{
     height: fit-content;
-    width: auto;;
+    width: auto;
     margin: 0px;
     padding-bottom: 50px;
     background-color: #f7f7f7;
@@ -95,7 +101,8 @@ body{
 }
 
 .type{
-    width: 950px;
+    width: auto;
+    max-width: 950px;
     font-size: 20px;
     background-color: #ffffff;
     border: 2px solid black;
@@ -106,7 +113,7 @@ body{
 
 .box{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 10px;
 }
 
@@ -117,7 +124,6 @@ body{
     border: 2px solid black;
     margin: 10px;
     padding: 15px;
-    line-height: 16px;
     box-shadow: 8px 8px #ff6a2b;
 }
 
@@ -125,7 +131,7 @@ body{
     height: 100px;
     width: 230px;
     font-size: 20px;
-    line-height: 22px;
+    line-height: 25px;
     background-color: #f9f9f9;
     padding: 10px;
 }
@@ -198,6 +204,10 @@ body{
 
 .title_HN{
     font-family: 'SF_HambakSnow';
+}
+
+.title_LP{
+    font-family: 'LeferiPoint-WhiteObliqueA';
 }
 
 footer{
